@@ -1,1 +1,1 @@
-Creating Online Shop
+Creating Online Shop using Django
