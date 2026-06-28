@@ -9,8 +9,5 @@ def main_page(response):
 def home(response):
     return render(response,"main/home.html",{})
 
-def login(response):
-    return render(response,"main/login.html",{})
-
 def register(response):
     return render(response,"main/register.html",{})
