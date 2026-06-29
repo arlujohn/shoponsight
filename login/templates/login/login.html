@@ -5,5 +5,9 @@ Login | ShopOnSight
 
 {% block content %}
     <h1>This is a Login Page</h1>
+    <form method="POST" action="/login/">
+        {{form}}
+        <button type="submit", name="login">Login</button>
+    </form>
     <p>Don't have an account? Create <a href="" >Here</a></p>
 {% endblock %}
